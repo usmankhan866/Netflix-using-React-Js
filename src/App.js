@@ -3,52 +3,50 @@ import { Cards } from "./Cards";
 import CardData from "./CardData";
 
 
+// function ncard(val){
+
+//    return(
+
+//        <Cards 
+//        imgSrc ={val.imgSrc} 
+//        title = {val.title }
+//        sname = {val.sname}
+//        link  = {val.link}
+//    />
+//    );
+
+// }
+
 function App(){
 
-  return(
-    <>     
-    <Cards 
-       imgSrc ={CardData[0].imgSrc} 
-       title = {CardData[0].title }
-       sname = {CardData[0].sname}
-       link  = {CardData[0].link}
-   />
+return(
+    <> 
+    <h1 className="Headings">Top 6 series of Netflix</h1>
+  {/* map method: The map() method creates a new array with the results of calling a function for every array element.
+       we will use it if we want to display all card elements without calling explacitly each card
+       it just requird only the first card to display all cards data
+       it contain three parameter (value, index, array_name) value: contain all the data of a array does not matter
+       how much  index: is the array index array_name: it used in those case if u want ta display data of a specific
+       array in many arrays in a components */}
+    
+    {/* In this i have been called a function "ncard" method. this is one way of using map method*/}
+    
+    {/* {CardData.map(ncard)} */}
 
-   <Cards 
-       imgSrc ={CardData[1].imgSrc} 
-       title = {CardData[1].title }
-       sname = {CardData[1].sname}
-       link  = {CardData[1].link}
-   />
-                      
-   <Cards 
-       imgSrc ={CardData[2].imgSrc} 
-       title = {CardData[2].title }
-       sname = {CardData[2].sname}
-       link  = {CardData[2].link}
-   />
+    {/* Another way of using map method is to use flat arrow function in the method method, this way of map method
+        is more usable */}
 
-   <Cards 
-       imgSrc ={CardData[3].imgSrc} 
-       title = {CardData[3].title }
-       sname = {CardData[3].sname}
-       link  = {CardData[3].link}
-   />
-            
-   <Cards 
-       imgSrc ={CardData[4].imgSrc} 
-       title = {CardData[4].title }
-       sname = {CardData[4].sname}
-       link  = {CardData[4].link}
-   />
+     {CardData.map((val) => {
 
-   <Cards 
-       imgSrc ={CardData[5].imgSrc} 
-       title = {CardData[5].title }
-       sname = {CardData[5].sname}
-       link  = {CardData[5].link}
-   />
-                              
+       return(
+         <Cards 
+             imgSrc ={val.imgSrc} 
+             title = {val.title }
+             sname = {val.sname}
+             link  = {val.link}
+          /> 
+            );
+       })}
          
   </>
   );

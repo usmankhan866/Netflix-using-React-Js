@@ -6,22 +6,18 @@ body{
   background-color: silver;
 }
 
-/* div{
+.Headings{
+ 
   width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin-top: 0%;
+  background-color: white;
+  padding: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  color: burlywood;
+}
 
-} */
-
-/* ol li{
-
-  font-size: 25px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 
 .Cards{
 

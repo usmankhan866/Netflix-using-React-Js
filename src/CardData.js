@@ -5,6 +5,7 @@ import react from "react";
 let CardData = [
 
     {
+        id: 1,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"Money Heist",
@@ -12,6 +13,7 @@ let CardData = [
     },
 
     {
+        id: 2,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"DARK",
@@ -20,6 +22,7 @@ let CardData = [
     },
 
     {
+        id: 3,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"DARK",
@@ -27,6 +30,7 @@ let CardData = [
     },
 
     {
+        id: 4,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"DARK",
@@ -34,6 +38,7 @@ let CardData = [
     },
 
     {
+        id: 5,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"DARK",
@@ -41,6 +46,7 @@ let CardData = [
     },
 
     {
+        id: 6,
         imgSrc:"http://wallpapercave.com/wp/wp4056410.jpg", 
            title:"A Netflix Orignal Series",
            sname:"DARK",
