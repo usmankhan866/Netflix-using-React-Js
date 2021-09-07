@@ -1,4 +1,5 @@
 import React from "react";
+import css from"./index.css"
 
 
 function Cards(props){
@@ -13,7 +14,7 @@ function Cards(props){
                         <span className="card__category"> {props.title} </span>
                         <h3 className="card__title"> {props.sname} </h3>
                         <a href= {props.link} target="_blank">
-                            <button>Watch Now</button>
+                            <button className="btn">Watch Now</button>
                         </a>
                     </div>
                 </div>

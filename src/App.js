@@ -6,21 +6,37 @@ function App(){
 
   return(
     <>     
-    <Cards imgSrc="" 
+    <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
            title="A Netflix Orignal Series"
-           sname="DARK"
+           sname="Money Heist"
            link="" />,
     
-    <Cards imgSrc="" 
+    <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
            title="A Netflix Orignal Series"
            sname="DARK"
            link="" />,
 
-    <Cards imgSrc="" 
+    <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
            title="A Netflix Orignal Series"
            sname="DARK"
            link="" />       
            
+    <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
+           title="A Netflix Orignal Series"
+           sname="DARK"
+           link="" />
+
+     <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
+           title="A Netflix Orignal Series"
+           sname="DARK"
+           link="" />       
+
+      <Cards imgSrc="http://wallpapercave.com/wp/wp4056410.jpg" 
+           title="A Netflix Orignal Series"
+           sname="DARK"
+           link="" />       
+             
+      
   </>
   );
   }
