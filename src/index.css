@@ -64,7 +64,7 @@ padding-bottom: 10px;
 .card__category{
 
   font-family:'Times New Roman', Times, serif;
-  color:burlywood;
+  color:#e67e22;
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: bold;
@@ -75,7 +75,7 @@ padding-bottom: 10px;
   border-radius: 5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 2px;
-  color:burlywood;
+  color:#e67e22;
   cursor: pointer;
 }
 
